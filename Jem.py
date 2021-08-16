@@ -1,11 +1,8 @@
 import numpy as np
-import pandas as pd
 from pandas.core.frame import DataFrame
 import pandas_datareader.data as web
 import matplotlib.pyplot as plt
-import datetime
 from datetime import date
-import statsmodels.api as sm
 
 Today = date.today()
 today = Today.strftime("%Y-%m-%d")
